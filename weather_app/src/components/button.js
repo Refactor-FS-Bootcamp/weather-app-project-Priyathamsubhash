@@ -1,10 +1,7 @@
 const Button = (props) => {
-    const {data} = props;
   
     return (
-      <button className="btn-container" >
-        {data}
-      </button>
+      <button className={props.class}style={props.style} onClick={props.handleClick}>{props.buttonname}</button>
     );
   };
   
