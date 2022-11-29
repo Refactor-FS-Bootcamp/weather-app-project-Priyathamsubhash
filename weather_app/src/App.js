@@ -17,6 +17,6 @@ export default function App() {
       <Sider sider_data={sider_data} />
       <Nav />
 
-    </div>
+    </div> 
   );
 }
