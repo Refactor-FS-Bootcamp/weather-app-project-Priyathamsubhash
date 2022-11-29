@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  padding: 10px;
+}
+.Heading{
+  margin-top: 10vh;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btn-container {
+  margin-top: 10vh;
+  background-color:rgb(84, 19, 163);
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  width: max-content;
+  border: 0px;
+  color: white;
+  margin-right: 10vh;
+}
+.sider {
+  float: left;
+  height: calc(100vh - 40px);
+  background-color: silver;
+  padding: 10px;
+}
+.sider-content{
+  margin: 10px;
+  margin-top: 4vh;
+}
