@@ -9,7 +9,7 @@ const Nav = () => {
         </div>
       <div className="right-container">
         <div>
-          <Button data={"Add New City"}  />
+          <Button buttonname="Add New City" class="addnewcity"/>
         </div>
       </div>
     </div>
