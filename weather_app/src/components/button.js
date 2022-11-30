@@ -1,11 +1,12 @@
-const Button = (props) => {
-    const {data} = props;
+import React from 'react'
+export default function Button(props) {
+   // let location=useLocation()
+  return (
+    <>
+       
+       <button className={props.class} style={props.style} onClick={props.handleClick}>{props.item}</button>   
   
-    return (
-      <button className="btn-container" >
-        {data}
-      </button>
-    );
-  };
-  
-  export default Button; 
+    </>
+  )
+}
+ 

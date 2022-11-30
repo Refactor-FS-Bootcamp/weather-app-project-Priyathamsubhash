@@ -1,36 +1,93 @@
-.App {
-  font-family: sans-serif;
+
+.active{
+  background-color: orange;
+  color: rgb(104, 104, 183);
+}
+/* .content{
+  height:100vh;
+  width:calc(100vh-50vh);
+} */
+body{
+  margin:0;
+  padding: 0;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5%;
+  margin-left: 20vh;
+}
+/* .content{
+ margin-left: 5px;
+} */
+.homeContent{
+ 
+ height:calc(100vh-10vh);
+}
+
+.cityContent{
+  width:40%;
+  height:500px;
+  margin-left:40vh;
+  border-radius:15px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+}
+.cityContentHead{
+display:flex;
+justify-content: space-between;
+align-items: center;
+margin: 10px;
+/* margin-bottom: 0; */
+}  
+.cityMain{
+  padding:10px;
+  padding-top: 0;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.sider{
+  margin-top:0;
+  height:100vh;
+  width:15vh;
+  background-color: rgb(85, 85, 212);
   text-align: center;
 }
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  height: 40px;
-  align-items: center;
+.active-container{
+  /* align-items: center; */
+  background-color: rgb(255, 179, 0);
+  color: rgb(85, 85, 212);
+  height:40px;
+  font-weight: 600;
+  padding: 8px;
+  
+ 
+}
+.deactive-container{
+  color: orange;
+  height:40px;
+ 
+}
+.custom-lay{
+  float:left;
+}
+.ctybtn{
+  background-color: rgb(104, 104, 183);
+  color:white;
+  border:none;
+  height:40px;
   padding: 10px;
+  margin-right: 5vh;
+
 }
-.Heading{
-  margin-top: 10vh;
-  text-align: left;
-  font-family: 'Times New Roman', Times, serif;
+.homeContent{
+  margin-left:20vh;
+ /* height:calc(100vh-10vh); */
 }
-.btn-container {
-  margin-top: 10vh;
-  background-color:rgb(84, 19, 163);
-  padding: 10px;
-  font-family: 'Times New Roman', Times, serif;
-  width: max-content;
-  border: 0px;
-  color: white;
-  margin-right: 10vh;
-}
-.sider {
-  float: left;
-  height: calc(100vh - 40px);
-  background-color: silver;
-  padding: 10px;
-}
-.sider-content{
-  margin: 10px;
-  margin-top: 4vh;
+.plus_symbol{
+  margin-right: 4vh;
+  font-size: 3.5vh;
+  
 }

@@ -1,22 +1,15 @@
-import Nav from "./components/nav";
-import Sider from "./components/sider";
-import "./App.css";
+import './App.css';
+import AppRoutes from './components/Routes/AppRoutes';
+import CustomLayout  from './components/CustomLay';
 
-export default function App() {
-  const sider_data=[
-    {
-      Name:"Home"
-    },
-    {
-      Name:"Cities"
-   }
-  ]
+function App() {
   return (
     <div className="App">
-      
-      <Sider sider_data={sider_data} />
-      <Nav />
-
-    </div>
+      <CustomLayout/>
+        <AppRoutes/>
+       
+</div>
   );
 }
+export default App;
+  
