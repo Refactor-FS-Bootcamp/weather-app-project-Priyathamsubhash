@@ -12,7 +12,7 @@ export default function Sider(props) {
     if (item === "Home") {
       navigate("/");
       
-    } else if (item === "Cities") {
+    } else if (item === "Cities") { 
       
       navigate("/Cities");       
     }

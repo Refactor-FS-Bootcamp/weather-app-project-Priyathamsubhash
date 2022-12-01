@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import City from '../Cities'
-import Home from '../Home'
+import City from '../pages/Cities'
+import Home from '../pages/Home'
 
 export default function AppRoutes() {
    //sy
