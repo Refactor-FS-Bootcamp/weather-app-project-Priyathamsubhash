@@ -11,10 +11,8 @@ export default function Sider(props) {
     setSelectedItem(item);
     if (item === "Home") {
       navigate("/");
-      
-    } else if (item === "Cities") { 
-      
-      navigate("/Cities");       
+    } else if (item === "Cities") {
+      navigate("/city");
     }
   };
   return (

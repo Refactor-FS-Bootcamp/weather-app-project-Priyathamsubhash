@@ -10,36 +10,36 @@ export const Cities = [
       id: "2",
       name: "Mumbai",
       desc: "Clear with periodic clouds",
-      temp: "20 °C",
-      humidity: "52.0%"
+      temp: "30 °C",
+      humidity: "44.0%"
     },
     {
       id: "3",
       name: "Pune",
       desc: "Clear with periodic clouds",
-      temp: "20 °C",
-      humidity: "52.0%"
+      temp: "24 °C",
+      humidity: "58.0%"
     },
     {
       id: "4",
       name: "Patna",
       desc: "Clear with periodic clouds",
-      temp: "20 °C",
-      humidity: "52.0%"
+      temp: "33 °C",
+      humidity: "54.0%"
     },
     {
       id: "5",
       name: "Delhi",
       desc: "Clear with periodic clouds",
-      temp: "20 °C",
-      humidity: "52.0%"
+      temp: "15 °C",
+      humidity: "40.0%"
     },
     {
       id: "6",
       name: "Kolkata",
       desc: "Clear with periodic clouds",
-      temp: "20 °C",
-      humidity: "52.0%"
+      temp: "30 °C",
+      humidity: "49.0%"
     },
     {
       id: "7",
@@ -66,21 +66,21 @@ export const Cities = [
       id: "10",
       name: "Ranchi",
       desc: "Clear with periodic clouds",
-      temp: "20 °C",
-      humidity: "52.0%"
+      temp: "25 °C",
+      humidity: "47.0%"
     },
     {
       id: "11",
       name: "Chennai",
       desc: "Clear with periodic clouds",
-      temp: "20 °C",
+      temp: "28 °C",
       humidity: "52.0%"
     },
     {
       id: "12",
       name: "Jaipur",
       desc: "Clear with periodic clouds",
-      temp: "20 °C",
+      temp: "21 °C",
       humidity: "52.0%"
     }
   ];
