@@ -12,7 +12,7 @@ let mode=context.bkMode
   return (
     <HeaderWrapperStyled mode={mode}>
     <div className="header">
-    <h3><i>{props.text}</i></h3>
+    <h3>{props.text}</h3>
         {props.item && <Button class="ctybtn" item={props.item} handleClick={props.handleClick}/>}
     </div>
     </HeaderWrapperStyled>    

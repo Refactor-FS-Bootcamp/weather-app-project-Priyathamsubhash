@@ -93,7 +93,7 @@ body {
   /* display: flex;
   flex-direction: column; */
 
-  background-color: #633ea5;
+  background-color: #9777cd;
   text-align: center;
   /* overflow-y: auto; */
 }
@@ -227,7 +227,7 @@ body {
   width: 80%;
   height: 40px;
   border: 0px;
-  background: rgba(228, 255, 248, 0.752);
+  background: rgba(39, 75, 66, 0.752);
   padding: 20px;
 }
 .into {
@@ -243,7 +243,7 @@ body {
   padding: 5px;
   font-weight: 600;
   height: 50px;
-  background: rgba(200, 242, 231, 0.752);
+  background: rgba(46, 139, 114, 0.752);
   align-items: center;
   padding-left: 10px;
 }

@@ -8,7 +8,7 @@ import { MyContext } from '../context/appContext';
 export default function Sider(props) {
   const { NavItems } = props;
   let context=useContext(MyContext)
-  let [modeName,setModeName]=useState('Enable Dark Mode')
+  let [modeName,setModeName]=useState('Dark Mode')
   const navigate = useNavigate();
   const [selectedItem, setSelectedItem] = useState("Home");
   const mode=context.bkMode
@@ -24,7 +24,7 @@ export default function Sider(props) {
   //console.log(context.bKMode)
   const toggleCheck=()=> {
    context.setBkMode(context.bkMode==="light"?"Dark":"light")
-   setModeName(modeName==="Enable Dark Mode"?"Enable Light Mode":"Enable Dark Mode")
+   setModeName(modeName==="Dark Mode"?"Light Mode":"Dark Mode")
   }
   return (
     <SiderWrapperStyled mode={mode}>

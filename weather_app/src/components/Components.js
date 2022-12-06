@@ -2,8 +2,8 @@ import styled from "styled-components";
 export const SiderWrapperStyled = styled.div`
 .active-container {
     align-items: center;
-    background-color: #ffce5e;
-    color: #633ea5;
+    background-color: #917941;
+    color: black;
     height: 60px;
     font-weight: 600;
     cursor: pointer;
@@ -22,7 +22,7 @@ export const SiderWrapperStyled = styled.div`
     top: 0;
     height: 100vh;
     width: 150px;
-    background-color:${(props) => (props.mode === "Dark" ? "black" :  "#633ea5")};
+    background-color:${(props) => (props.mode === "Dark" ? "#393345" :  "#633ea5")};
     text-align: center;
     color:${(props) => (props.mode === "Dark" ? "white" : "#ffce5e")};
   }
@@ -30,7 +30,7 @@ export const SiderWrapperStyled = styled.div`
     .sider {
       width: 20vh;
       height: 100vh;
-      background: ${(props) => (props.mode === "Dark" ? "black" :  "#633ea5")};
+      background: ${(props) => (props.mode === "Dark" ? "#393345" :  "#633ea5")};
       display: flex;
       flex-direction: column;
     }
@@ -253,7 +253,7 @@ export const ModuleWrapperStyled = styled.div`
     .model-content{
         width:50%;
         height:65%;
-        background:${(props) => (props.mode === "Dark" ? " #ffce5e" : "")};
+        background:${(props) => (props.mode === "Dark" ? " #877c64" : "")};
     }
     .cityNameContent{
         color:${(props) => (props.mode === "Dark" ? " black" : "black")};

@@ -1,11 +1,13 @@
 import styled from "styled-components";
 export const HeaderWrapperStyled = styled.div`
 .ctybtn {
-    background-color:  ${(props) => (props.mode === "Dark" ? "#ffce5e" : "#633ea5")};
+    background-color:  ${(props) => (props.mode === "Dark" ? "#917941" : "#633ea5")};
     color: ${(props) => (props.mode === "Dark" ? "black" : "white")};
     border: none;
     border-radius: 5px;
     height: 40px;
+    margin-top:6vh;
+    margin-right:6vh;
     padding: 10px;
     width: 150px;
     font-size: 17px;
@@ -24,12 +26,12 @@ export const HeaderWrapperStyled = styled.div`
     margin: 10px 0 0 10px;
     height:auto;
     border: 1px solid lightgrey;
-    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
     padding:10px;
     border-radius:10px;
-   border-color:${(props) => (props.mode === "Dark" ? "white" : "black")};
-   background:${(props) => (props.mode === "Dark" ? "#ffce5e" : "")};
-   color:${(props) => (props.mode === "Dark" ? "black" : "")};
+   border-color:${(props) => (props.mode === "Dark" ? "black" : "")};
+   background:${(props) => (props.mode === "Dark" ? "#917941" : "")};
+   color:${(props) => (props.mode === "Dark" ? "white" : "")};
   }
   .card-fav-header{
     width: 100%;
@@ -87,7 +89,7 @@ export const CityWrapperStyled = styled.div`
     overflow-y:scroll;
    
     box-sizing:content-box;
-    background: ${(props) => (props.mode === "Dark" ? "#ffce50" : "white")};
+    background: ${(props) => (props.mode === "Dark" ? "#917941" : "white")};
    
   }
   .cityContent::-webkit-scrollbar{
@@ -139,9 +141,8 @@ export const CityWrapperStyled = styled.div`
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-    background: ${(props) => (props.mode === "Dark" ? "#ffce50" : "white")};
+    background: ${(props) => (props.mode === "Dark" ? "#917941" : "white")};
     width: 50vw;
-    margin-top: 6vh;
     margin-left: 50px;
     
   }
