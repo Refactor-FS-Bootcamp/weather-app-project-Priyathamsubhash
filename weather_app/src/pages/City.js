@@ -23,10 +23,9 @@ export default function City() {
    const shwModelCity=()=>{
     setShowModelCity(!showModelCity)
     //setSideCity(city)
-    // console.log(showModelCity)
   
    }
-   //show Fav Cities start
+  //  show Fav Cities start
   //  const showFavouriteCity=(city)=>{
   //   setSelFav(!selFav)
   //   if(!context.favCities.includes(city)){
@@ -43,9 +42,9 @@ export default function City() {
     
   //  }
   //  console.log(context.favCities);
-   //show Fav Cities end
+  // //  show Fav Cities end
    
-  //  console.log(context.favCities)
+   console.log(context.favCities)
   return ( 
     <div className="cityContainer">
     <div className='city' >
